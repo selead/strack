@@ -15,7 +15,7 @@ class Tracker
 
   ###
   Create new object from params
-
+  *******bad*******      
   @param {Object} params Params object
   @api private
   ###
@@ -57,7 +57,7 @@ class Tracker
 
   ###
   Save tracker file
-
+  ********bad********
   @param {String} filename Path to tracker file
   @api public
   ###
@@ -74,7 +74,7 @@ class Tracker
 
   ###
   Show project states
-
+  
   @api public
   ###
   showStates: (which=null) ->
@@ -104,7 +104,7 @@ class Tracker
 
   ###
   Search ticket in tracker
-
+  ******bad******                 
   @param {String} ticketId Ticket id starting numbers
   @return {Array} result Tickets, which have id, strarting from ticketId
   @api private
@@ -124,7 +124,7 @@ class Tracker
   ###
   Get single ticket by id.
   If ticket id is not unique, method throws exception
-
+  
   @param {String} ticketId Ticket id starting numbers
   @return {Object} ticket Ticket object
   @api public
@@ -164,7 +164,7 @@ class Tracker
 
   ###
   Add unique ticket. Check ticket text for unique before adding
-
+ 
   @param {String} text Text of ticket
   @api public
   ###
@@ -204,7 +204,7 @@ class Tracker
 
   ###
   Change ticket text
-
+  
   @param {String} ticketId Ticket id
   @param {Object} text New ticket text
   @api public
@@ -228,7 +228,7 @@ class Tracker
 
   ###
   Comment ticket
-
+  *******bad*******
   @param {String} ticketId Ticket id
   @param {String} comment Comment text
   @api public
@@ -280,7 +280,7 @@ class Tracker
 
   ###
   Update comment on ticket
-
+  *******bad*******
   @param {String} ticketId Ticket id
   @param {String} cid Commetn id
   @param {String} newComment New comment
@@ -358,7 +358,7 @@ class Tracker
 
   ###
   Show info on ticket
-
+  
   @param {String} ticketId Ticket id
   @api public
   ###
@@ -367,7 +367,7 @@ class Tracker
 
   ###
   Log one ticket full info
-
+  
   @param {Object} ticket Ticket object
   @param {String} search Search string, default null
   @api private
@@ -404,7 +404,7 @@ class Tracker
 
   ###
   Sort tickets
-
+  *******bad*******
   @return {Array} tickets Tickets, sorted by asc or desc, depends on config "sortOrder" option
   @api private
   ###
@@ -436,7 +436,7 @@ class Tracker
 
   ###
   Log + search tickets
-
+  ***************************baaaaaaaaaadddddddddd*****************************
   @param {String} search Search string, default null
   @api public
   ###
